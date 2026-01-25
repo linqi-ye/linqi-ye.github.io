@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gewu Video Demos</title>
+    <!-- 简单样式，保证美观且适配GitHub Pages -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .video-list {
+            list-style: none;
+        }
+        .video-item {
+            background-color: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .video-item:hover {
+            transform: translateY(-3px);
+        }
+        .video-item a {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .video-item a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        .video-item span {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        .note {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #e8f4fd;
+            border-radius: 6px;
+            color: #2c3e50;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gewu Project Video Demos</h1>
+    
+    <ul class="video-list">
+        <!-- 视频1：Gewu demo -->
+        <li class="video-item">
+            <a href="Gewu demo.mp4" target="_blank">1. Gewu demo</a>
+            <span>(Click to play)</span>
+        </li>
+        <!-- 视频2：Gewu high-quality simulation features -->
+        <li class="video-item">
+            <a href="Gewu high-quality simulation features.mp4" target="_blank">2. Gewu high-quality simulation features</a>
+            <span>(Click to play)</span>
+        </li>
+        <!-- 视频3：Gewu-IsaacLab comparison -->
+        <li class="video-item">
+            <a href="Gewu-IsaacLab comparison.mp4" target="_blank">3. Gewu-IsaacLab comparison</a>
+            <span>(Click to play)</span>
+        </li>
+        <!-- 视频4：Domain randomization -->
+        <li class="video-item">
+            <a href="Domain randomization.mp4" target="_blank">4. Domain randomization</a>
+            <span>(Click to play)</span>
+        </li>
+        <!-- 视频5：Lunar locomotion demo -->
+        <li class="video-item">
+            <a href="Lunar locomotion demo.mp4" target="_blank">5. Lunar locomotion demo</a>
+            <span>(Click to play)</span>
+        </li>
+    </ul>
 
+    <div class="note">
+        <strong>Note:</strong> Ensure the video filenames in the folder match exactly (including spaces and case) with the links above. If videos fail to play, check the file extensions (.mp4) and path correctness.
+    </div>
+</body>
+</html>
